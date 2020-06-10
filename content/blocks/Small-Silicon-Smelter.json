@@ -1,0 +1,31 @@
+{
+  
+	"type": "GenericSmelter",
+	"name": "Small Silicon Smelter",
+	"description": "creates a large amount of silicon with a small amount of sand and coal",
+	"outputItem": {"item": "silicon", "amount": "2"},
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 5,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.50,
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 0.5 },
+				{ "item": "sand", "amount": 0.5 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 7 },
+		{ "item": "lead", "amount": 8 },
+	],
+	"category": "crafting",
+	"research": "silicon-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
