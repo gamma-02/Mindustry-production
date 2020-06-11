@@ -1,0 +1,30 @@
+{
+  
+	"type": "GenericSmelter",
+	"name": "Small Graphite Press",
+	"description": "presses coal into sand faster.",
+	"outputItem": {"item": "lead", "amount": "1"},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.50,
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 0.5 },
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 7 },
+		{ "item": "lead", "amount": 8 },
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
