@@ -1,0 +1,30 @@
+{
+  
+	"type": "GenericSmelter",
+	"name": "Lead Seperator",
+	"description": "Smelts lead out of scrap",
+	"outputItem": {"item": "lead", "amount": "1"},
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 100,
+	"craftTime": 0.1,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.001,
+		"items": {
+			"items": [
+				{ "item": "scrap", "amount": 0.1 },
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 25 },
+		{ "item": "lead", "amount": 20 },
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
