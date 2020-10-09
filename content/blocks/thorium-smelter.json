@@ -1,9 +1,9 @@
 {
   
 	"type": "GenericSmelter",
-	"name": "Thorium-Smelter",
+	"name": "Thorium Smelter",
 	"description": "Creates Thorium from Titanium and Lead",
-	"outputItem": {"item": "Thorium", "amount": "5"},
+	"outputItem": {"item": "thorium", "amount": "5"},
 	"size": 2,
 	"hasPower": true,
 	"hasLiquids": false,
@@ -15,8 +15,8 @@
 		"power": 1.50,
 		"items": {
 			"items": [
-				{ "item": "Titanium", "amount": "2"},
-				{ "item": "Lead","amount": "2" }
+				{ "item": "titanium", "amount": "2"},
+				{ "item": "lead","amount": "2" }
 			]
 		}
 	},
@@ -25,7 +25,7 @@
 		{ "item": "titanium", "amount": 8 },
 	],
 	"category": "crafting",
-	"research": "Titanium-Forge",
+	"research": "kiln",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }
