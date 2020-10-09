@@ -5,7 +5,7 @@
 	"description": "inf of titanium",
 	"outputItem": {"item": "Thorium", "amount": "100"},
 	"size": 1,
-	"hasPower": false,
+	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
 	"itemCapacity": 10000,
@@ -16,7 +16,7 @@
 		"items": {
 			"items": [
 				
-				{ "item": "lead","amount": "0.1" }
+				
 			]
 		}
 	},
