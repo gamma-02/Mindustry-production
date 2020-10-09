@@ -1,0 +1,30 @@
+{
+  
+	"type": "GenericSmelter",
+	"name": "Titanium Extractor",
+	"description": "Extracts Titanium out of sand",
+	"outputItem": {"item": "silicon", "amount": "2"},
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 5,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.1,
+		"items": {
+			"items": [
+				{ "item": "sand", "amount": 0.5 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 7 },
+		{ "item": "lead", "amount": 8 },
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
