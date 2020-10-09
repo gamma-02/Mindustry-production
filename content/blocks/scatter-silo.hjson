@@ -8,7 +8,6 @@ description: "A player-activatable block that scatters bullets everywhere upon u
 category: turret
 requirements: [
   graphite/75,
-  electrum/30
 ]
 consumes: {
   items: {
