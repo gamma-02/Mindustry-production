@@ -1,0 +1,31 @@
+{
+  
+	"type": "GenericSmelter",
+	"name": "Titanium-Extractor",
+	"description": "inf of titanium",
+	"outputItem": {"item": "Thorium", "amount": "100"},
+	"size": 1,
+	"hasPower": false,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 10000,
+	"craftTime": 0.001,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		
+		"items": {
+			"items": [
+				
+				{ "item": "Lead","amount": "0.1" }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 7 },
+		{ "item": "titanium", "amount": 8 },
+	],
+	"category": "crafting",
+	"research": "Titanium-Forge",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
