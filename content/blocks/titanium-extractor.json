@@ -16,7 +16,7 @@
 		"items": {
 			"items": [
 				
-				{ "item": "Lead","amount": "0.1" }
+				{ "item": "lead","amount": "0.1" }
 			]
 		}
 	},
