@@ -1,7 +1,7 @@
 {
   
 	"type": "GenericSmelter",
-	"name": "Titanium-Extractor",
+	"name": "Titanium Extractor",
 	"description": "inf of titanium",
 	"outputItem": {"item": "Thorium", "amount": "100"},
 	"size": 1,
@@ -12,7 +12,7 @@
 	"craftTime": 0.001,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-		
+		"power":1,
 		"items": {
 			"items": [
 				
