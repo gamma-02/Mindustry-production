@@ -1,0 +1,30 @@
+{
+  
+	"type": "GenericSmelter",
+	"name": "Copper Matter Fabricator",
+	"description": "Produces Copper",
+	"outputItem": {"item": "copper", "amount": 1 },
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 100,
+	"craftTime": 1,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.0,
+		"items": {
+			"items": [
+				{ "item": "scrap", "amount": 0.5 },
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "graphite", "amount": 7 },
+		{ "item": "copper", "amount": 25 },
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
