@@ -3,7 +3,7 @@
 	"type": "GenericSmelter",
 	"name": "Coal Matter Fabricator",
 	"description": "Produces Coal",
-	"outputItem": {"item": "coal": "1"},
+	"outputItem": {"item": "coal", "amount": 1 },
 	"size": 1,
 	"hasPower": true,
 	"hasLiquids": false,
