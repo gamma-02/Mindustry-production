@@ -20,7 +20,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "titanium", "amount": 7 },
+		{ "item": "lead", "amount": 7 },
 		{ "item": "copper", "amount": 50 },
 	],
 	"category": "crafting",
