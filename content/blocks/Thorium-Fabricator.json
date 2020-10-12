@@ -1,0 +1,30 @@
+{
+  
+	"type": "GenericSmelter",
+	"name": "Thorium Matter Fabricator",
+	"description": "Produces Thorium",
+	"outputItem": {"item": "thorium", "amount": "1"},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 100,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2.0,
+		"items": {
+			"items": [
+				{ "item": "sand", "amount": 0.5 },
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 7 },
+		{ "item": "copper", "amount": 50 },
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
