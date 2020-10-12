@@ -1,0 +1,30 @@
+{
+  
+	"type": "GenericSmelter",
+	"name": "Coal Matter Fabricator",
+	"description": "Produces Coal",
+	"outputItem": {"item": "thorium", "Coal": "1"},
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 100,
+	"craftTime": 1,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{ "item": "sand", "amount": 0.5 },
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "graphite", "amount": 7 },
+		{ "item": "copper", "amount": 25 },
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
