@@ -3,7 +3,7 @@
 	"type": "GenericSmelter",
 	"name": "Plastanium Matter Fabricator",
 	"description": "Produces Plastanium",
-	"outputItem": {"item": "coal", "amount": 2 },
+	"outputItem": {"item": "plastainum", "amount": 2 },
 	"size": 1,
 	
 	"hasLiquids": false,
