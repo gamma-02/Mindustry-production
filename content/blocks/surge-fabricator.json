@@ -1,0 +1,30 @@
+{
+  
+	"type": "GenericSmelter",
+	"name": "Surge Alloy Matter Fabricator",
+	"description": "Produces Surge Alloy",
+	"outputItem": {"item": "surge-alloy", "amount": 2 },
+	"size": 1,
+	
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 100,
+	"craftTime": 0.01,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		
+		"items": {
+			"items": [
+				{ "item": "scrap", "amount": 0.5 },
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "graphite", "amount": 7 },
+		{ "item": "copper", "amount": 25 },
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
