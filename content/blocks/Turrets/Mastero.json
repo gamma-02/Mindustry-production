@@ -132,27 +132,7 @@
      "hitEffect": "explosion"
      }
 	
-     "vulcanite":{
-			"bulletWidth": 9,
-			"ammoMultiplier": 2,
-		     "bulletHeight": 9,
-		     "collides": true,
-		     "collidesAir": true,
-		     "collidesTiles": "true",
-             "type": "ArtilleryBulletType",
-             "lifetime": 40,
-             "damage": 6,
-             "speed": 5,
-             "status": "burning"
-             "statusDuration": 1200,
-             "velocityRnd": 0.5,
-             "splashDamageRadius": 32,
-             "splashDamage": 16,
-           "backColor": "cc9999",
-     "frontColor": "cc9999",
-     "trailColor": "cc9999",
-     "hitEffect": "explosion"
-     }
+     
 	"phase-fabric":{
 			"bulletWidth": 8,
 			"ammoMultiplier": 4,
@@ -387,66 +367,10 @@
      "lightningLength": 12,
        "hitEffect": "explosion"
       }
-      "crimson-compoundB":{
-			"bulletWidth": 11,
-			"ammoMultiplier": 2,
-		     "bulletHeight": 11,
-             "type": "BasicBulletType",
-             "lifetime": 600,
-             "damage": 24,
-             "drag": 0.02,
-             "speed": 5,
-             "status": "burning",
-             "velocityRnd": 0.5,
-             "splashDamageRadius": 32,
-             "splashDamage": 28,
-           "backColor": "ffaaaa",
-     "frontColor": "ffaabb",
-       "hitEffect": "explosion",
-       "incendAmount": 3,
-       "incendSpread": 2,
-       "incendChance": 33,
-      }
-		"crimson-compoundA":{
-			"bulletWidth": 10,
-			"ammoMultiplier": 3,
-		     "bulletHeight": 10,
-             "type": "BasicBulletType",
-             "lifetime": 40,
-             "damage": 8,
-             "speed": 5,
-             "status": "melting",
-             "statusDuration": 20,
-             "velocityRnd": 0.5,
-             "splashDamageRadius": 34,
-             "splashDamage": 20,
-           "backColor": "ffaaaa",
-     "frontColor": "febbbb",
-       "hitEffect": "explosion"
-       "reloadMultiplier": 1.2,
-      }
-      	"crimson-alloy":{
-			"bulletWidth": 16,
-			"ammoMultiplier": 2,
-		     "bulletHeight": 16,
-             "type": "BasicBulletType",
-             "lifetime": 25,
-             "damage": 48,
-             "speed": 8,
-             "status": "melting",
-             "statusDuration": 300,
-             "velocityRnd": 0.5,
-             "splashDamageRadius": 32,
-             "splashDamage": 30,
-           "backColor": "df8888",
-     "frontColor": "df8888",
-       "hitEffect": "explosion"
-       "fragBullets": 5,
-       "fragBullet": "eruptorShot"
-       "knockback": 0.6,
-       "reloadMultiplier": 0.4,
-      }
-	},
+      
+		
+      
+},
 	
 	
 	
