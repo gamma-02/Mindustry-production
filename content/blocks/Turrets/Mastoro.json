@@ -131,23 +131,7 @@
      "frontColor": "cacaff",
      "hitEffect": "explosion"
      }
-	"obsidian":{
-			"bulletWidth": 14,
-			"ammoMultiplier": 2,
-		     "bulletHeight": 14,
-             "type": "BasicBulletType",
-             "lifetime": 60,
-             "damage": 40,
-             "speed": 3,
-             "velocityRnd": 0.5,
-             "splashDamageRadius": 36,
-             "splashDamage": 5,
-           "backColor": "dddddd",
-     "frontColor": "dddddd",
-     "hitEffect": "explosion"
-     "reloadMultiplier": 0.75,
-     "knockback": 1.2,
-     }
+	
      "vulcanite":{
 			"bulletWidth": 9,
 			"ammoMultiplier": 2,
