@@ -1,0 +1,25 @@
+{
+	"name": "Builing Mech",
+	"description": "Fast speed and building speed, quick and powerful miner, and large item capacity, but has a lower health than Dart.",
+	"speed": 0.64,
+	"drillPower": 7,
+	"mineSpeed": 10,
+	"drag": 0,
+	"mass": 2.1,
+	"buildPower": 5.6,
+	"engineOffset": 6.75,
+	"engineColor": "feb380",
+	"flying": true,
+	"health": 180,
+	"cellTrnsY": 1,
+	"itemCapacity": 1000,
+	"weaponOffsetX": 5.75,
+	"weapon": {
+		"name": "halberd-equip",
+		"length": 1,
+		"reload": 12.5,
+		"shootSound": "shootSnap",
+		"alternate": true,
+		"bullet": "standardGlaive"
+	}
+}
