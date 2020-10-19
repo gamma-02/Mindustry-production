@@ -3,7 +3,7 @@
 	"name": "Builder Ship Pad",
 	"description": "Provides transformation into a fast ship with a fast building speed, but has a lower health than Dart.",
 	"type": "MechPad",
-	"mech": "halberd",
+	"mech": "build-mech",
 	"size": 3,
 	"consumes": {
 		"power": 1.3
