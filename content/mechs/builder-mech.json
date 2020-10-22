@@ -4,7 +4,7 @@
 	"speed": 0.64,
 	"drillPower": 7,
 	"mineSpeed": 10,
-	"drag": 0,
+	"drag": 0.5,
 	"mass": 2.1,
 	"buildPower": 5.6,
 	"engineOffset": 6.75,
@@ -20,6 +20,6 @@
 		"reload": 12.5,
 		"shootSound": "shootSnap",
 		"alternate": true,
-		"bullet": "standardGlaive"
+		"bullet": "standardLitch"
 	}
 }
