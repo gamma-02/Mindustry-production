@@ -20,6 +20,6 @@
 		"reload": 12.5,
 		"shootSound": "shootSnap",
 		"alternate": true,
-		"bullet": "standardLitch"
+		"bullet": "standardLich"
 	}
 }
