@@ -3,4 +3,4 @@ displayName: "[orange]Example[gold] Mod" //what displays in the mod selection me
 author: "Gamma_02"
 description: "A simple mod. Demonstrates how to make[accent] new ores[] and[orange] machines.[]"
 version: "3.1"
-minGameVersion: "103"
+minGameVersion: "122.1"
