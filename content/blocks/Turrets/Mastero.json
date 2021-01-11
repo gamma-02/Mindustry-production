@@ -6,7 +6,7 @@
 	"targetGround": true,
 	"size": 3,
 	"health": 1200,
-	"inaccuracy": 7,
+	"inaccuracy": 1,
 	"reloadTime": 7.5,
 	"shots": 1,
 	"ammoPerShot": 1,
@@ -17,7 +17,7 @@
 	 
 	"shootCone": 120,
 	"rotateSpeed": 30,
-	"range": 200,
+	"range": 20000,
 	"ammoTypes": {
 	"graphite":{
 			"bulletWidth": 11,
