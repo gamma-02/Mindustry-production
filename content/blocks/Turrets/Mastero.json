@@ -41,7 +41,7 @@
 			"bulletWidth": 10,
 			"ammoMultiplier": 3,
 		     "bulletHeight": 10,
-             "type": "FlakBulletType",
+             "type": "BasicBulletType",
              "lifetime": 40,
              "damage": 3,
              "speed": 5,
@@ -57,7 +57,7 @@
 			"bulletWidth": 10,
 			"ammoMultiplier": 3,
 		     "bulletHeight": 10,
-             "type": "FlakBulletType",
+             "type": "BasicBulletType",
              "lifetime": 40,
              "damage": 3,
              "speed": 5,
@@ -306,7 +306,7 @@
 			"bulletWidth": 9,
 			"ammoMultiplier": 3,
 		     "bulletHeight": 9,
-             "type": "FlakBulletType",
+             "type": "BasicBulletType",
              "lifetime": 50,
              "damage": 8,
              "speed": 10,
@@ -354,7 +354,7 @@
 			"bulletWidth": 13,
 			"ammoMultiplier": 2,
 		     "bulletHeight": 13,
-             "type": "FlakBulletType",
+             "type": "BasicBulletType",
              "lifetime": 50,
              "damage": 120000,
              "speed": 5,
@@ -384,3 +384,5 @@
 	"category": "turret",
 	"research": "salvo",
 }
+
+
