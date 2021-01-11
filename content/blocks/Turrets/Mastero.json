@@ -14,7 +14,7 @@
 	"spacing": 1,
 	"velocityRnd": 0.5,
 	"recoil": 2,
-	"ammoUseEffect": "shellEjectBig",
+	 
 	"shootCone": 120,
 	"rotateSpeed": 30,
 	"range": 200,
