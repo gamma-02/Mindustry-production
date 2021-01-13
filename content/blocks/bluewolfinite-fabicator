@@ -1,0 +1,31 @@
+{
+  
+	"type": "GenericSmelter",
+	"name": "bluewolfinite Matter Fabricator",
+	"description": "Produces refined bluewolfranite",
+	"outputItem": {"item": "exotic-mod-bluewolframite", "amount": 10 },
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 100,
+	"craftTime": 1,
+	"updateEffect": "refine",
+  "craftEffect": "hitLancer",
+	"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{ "item": "scrap", "amount": 0.5 },
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "graphite", "amount": 7 },
+		{ "item": "copper", "amount": 25 },
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
