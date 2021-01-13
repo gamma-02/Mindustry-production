@@ -3,7 +3,7 @@
 	"type": "GenericSmelter",
 	"name": "bluewolfinite Matter Fabricator",
 	"description": "Produces refined bluewolfranite",
-	"outputItem": {"item": "exotic-mod-bluewolframite", "amount": 10 },
+	"outputItem": {"item": "Exotic-Mod-bluewolframite", "amount": 10 },
 	"size": 1,
 	"hasPower": true,
 	"hasLiquids": false,
